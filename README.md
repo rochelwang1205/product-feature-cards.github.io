@@ -15,11 +15,15 @@ This is a solution to the [切版任務作業一 - AI 工具王 - 產品優勢�
 - [Author](#author)
 
 ## Overview
-總共花費約1.5小時，0.5小時完成大架構，1小時CSS和HTML調整。
+- 第一次總共花費約1.5小時，0.5小時完成大架構，1小時CSS和HTML調整。
+- 第二次(包含調整細節)共花費約1.5小時。
 
 ### Screenshot
-
+- 第一次
 ![](./切版任務一/screenshot.png)
+- 第二次
+![](./切版任務一/screenshot.ver.2.png)
+
 
 ### Links
 
@@ -35,10 +39,16 @@ This is a solution to the [切版任務作業一 - AI 工具王 - 產品優勢�
 - Flexbox
 
 ### What I learned
-
+第一次：
 - flex-wrap:wrap
 如何將超出畫面外的東西可以根據瀏覽器大小自動換行而不會溢出畫面。
 - span置右：利用float:right
+
+第二次：
+- 照片圓角和邊框圓角存在縫隙，將border-radius改成outline 
+- <hr>更改顏色及樣式
+- 換成png樣式圖
+
 
 ```css
 .container{
@@ -52,16 +62,34 @@ This is a solution to the [切版任務作業一 - AI 工具王 - 產品優勢�
 span{
     float: right;
 }
+.card{
+    outline:1px solid rgb(203, 203, 203);/*將border-radius改成outline*/
+    margin:15px;
+    width:416px;
+    border-radius: 16px;
+}
+hr{  /*更換樣式*/
+    border:none;
+    height:0.5px;
+    background-color:rgb(203, 203, 203);
+}
 ```
+
 ### The following goals
+第一次：
 - icon要改用已經有給的圖，不然大小跟設計稿會不一樣
 - 螢幕顯示器調整
 - Emmet 寫架構要再調整練習
 - 細節（間距）要再根據設計稿細調（因為有些為目測結果）
+第二次：
+- 練速度跟emmet!
+
 ### Useful resources
 
 - [flex-wrap](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex-wrap)
 - [ionicons](https://ionic.io/ionicons/)
+- [The 3 CSS Methods for Adding Element Borders](https://moderncss.dev/the-3-css-methods-for-adding-element-borders/)
+- [如何改變hr標籤的顏色](https://www.796t.com/content/1541591464.html)
 
 ## Author
 
