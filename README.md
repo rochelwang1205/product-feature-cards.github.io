@@ -36,9 +36,9 @@ This is a solution to the [切版任務作業一 - AI 工具王 - 產品優勢�
 
 ### What I learned
 
--flex-wrap:wrap
+- flex-wrap:wrap
 如何將超出畫面外的東西可以根據瀏覽器大小自動換行而不會溢出畫面。
--span置右：利用float:right
+- span置右：利用float:right
 
 ```css
 .container{
@@ -54,10 +54,10 @@ span{
 }
 ```
 ### The following goals
--icon要改用已經有給的圖，不然大小跟設計稿會不一樣
--螢幕顯示器調整
--Emmet 寫架構要再調整練習
--細節（間距）要再根據設計稿細調（因為有些為目測結果）
+- icon要改用已經有給的圖，不然大小跟設計稿會不一樣
+- 螢幕顯示器調整
+- Emmet 寫架構要再調整練習
+- 細節（間距）要再根據設計稿細調（因為有些為目測結果）
 ### Useful resources
 
 - [flex-wrap](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex-wrap)
