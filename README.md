@@ -61,9 +61,9 @@ This is a solution to the [切版任務作業一 - AI 工具王 - 產品優勢�
 第四次：
 - 卡片用<ul><li>改寫，語意化標籤會優化網頁讀取、取得性(accessibility)
 - 標籤層級考慮到整頁的架構，卡片部分改成從h3開始
-- 改成<a><span></span></a> ，並改成使用Google Material Icon，方便後續修改大小、字體顏色等
+- 改成'<a><span></span></a>' ，並改成使用Google Material Icon，方便後續修改大小、字體顏色等
 - 加入CSS reset
-- .container加上 width: 1296px; justify-content: space-between，更貼合設計稿
+- container加上 width: 1296px; justify-content: space-between，更貼合設計稿
 - img設定 width: 100%;可使圖片自動隨父層元素變動，不必手動調整更簡單方便
 - span置右改用flex的方法優化原有較舊且少用的float
 - line-height的px改寫成%比例的方式，避免載體不同導致顯示不一致
@@ -105,8 +105,10 @@ hr{  /*更換樣式*/
 - 螢幕顯示器調整
 - Emmet 寫架構要再調整練習
 - 細節（間距）要再根據設計稿細調（因為有些為目測結果）
+  
 第二次：
 - 練速度跟emmet!
+  
 第四次：
 - hr改用CSS中的border
 
