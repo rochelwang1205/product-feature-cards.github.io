@@ -51,7 +51,7 @@ This is a solution to the [切版任務作業一 - AI 工具王 - 產品優勢�
 
 第二次：
 - 照片圓角和邊框圓角存在縫隙，將border-radius改成outline 
-- <hr>更改顏色及樣式
+- hr更改顏色及樣式
 - 換成png樣式圖
 
 第三次：
@@ -64,10 +64,10 @@ This is a solution to the [切版任務作業一 - AI 工具王 - 產品優勢�
 - 改成<a><span></span></a> ，並改成使用Google Material Icon，方便後續修改大小、字體顏色等
 - 加入CSS reset
 - .container加上 width: 1296px; justify-content: space-between，更貼合設計稿
-- <img>設定 width: 100%;可使圖片自動隨父層元素變動，不必手動調整更簡單方便
+- img設定 width: 100%;可使圖片自動隨父層元素變動，不必手動調整更簡單方便
 - span置右改用flex的方法優化原有較舊且少用的float
 - line-height的px改寫成%比例的方式，避免載體不同導致顯示不一致
-- <p>段落改用padding推高度
+- p段落改用padding推高度
 - ctrl+f後，ctrl+shift+L統一修改選取詞
 - 字型統一設定在初始設定中。
 - 在不限定p段落高度下，如何讓不同行數高度相同?利用em
@@ -108,7 +108,7 @@ hr{  /*更換樣式*/
 第二次：
 - 練速度跟emmet!
 第四次：
-- <hr>改用CSS中的border
+- hr改用CSS中的border
 
 ### Useful resources
 
