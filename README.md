@@ -17,12 +17,17 @@ This is a solution to the [切版任務作業一 - AI 工具王 - 產品優勢�
 ## Overview
 - 第一次總共花費約1.5小時，0.5小時完成大架構，1小時CSS和HTML調整。
 - 第二次(包含調整細節)共花費約1.5小時。
+- 第三次(包含細節設定)花費0.5小時。
+- 第四次0.5小時含細節，2小時依助教回饋修改
 
 ### Screenshot
-- 第一次
-![](./切版任務一/screenshot.png)
+- 第四次
+![](./切版任務一/screenshot.ver.4.png)
 - 第二次
 ![](./切版任務一/screenshot.ver.2.png)
+- 第一次
+![](./切版任務一/screenshot.png)
+
 
 
 ### Links
@@ -49,6 +54,23 @@ This is a solution to the [切版任務作業一 - AI 工具王 - 產品優勢�
 - <hr>更改顏色及樣式
 - 換成png樣式圖
 
+第三次：
+- 寫出emmet的流程
+- CSS樣式再微調(像是邊框顏色、寬度)
+
+第四次：
+- 卡片用<ul><li>改寫，語意化標籤會優化網頁讀取、取得性(accessibility)
+- 標籤層級考慮到整頁的架構，卡片部分改成從h3開始
+- 改成<a><span></span></a> ，並改成使用Google Material Icon，方便後續修改大小、字體顏色等
+- 加入CSS reset
+- .container加上 width: 1296px; justify-content: space-between，更貼合設計稿
+- <img>設定 width: 100%;可使圖片自動隨父層元素變動，不必手動調整更簡單方便
+- span置右改用flex的方法優化原有較舊且少用的float
+- line-height的px改寫成%比例的方式，避免載體不同導致顯示不一致
+- <p>段落改用padding推高度
+- ctrl+f後，ctrl+shift+L統一修改選取詞
+- 字型統一設定在初始設定中。
+- 在不限定p段落高度下，如何讓不同行數高度相同?利用em
 
 ```css
 .container{
@@ -59,8 +81,10 @@ This is a solution to the [切版任務作業一 - AI 工具王 - 產品優勢�
     background: white;
     border-radius: 160px;
 }
-span{
-    float: right;
+h4{
+display: flex;
+align-items: center;
+justify-content:space-between;
 }
 .card{
     outline:1px solid rgb(203, 203, 203);/*將border-radius改成outline*/
@@ -83,13 +107,16 @@ hr{  /*更換樣式*/
 - 細節（間距）要再根據設計稿細調（因為有些為目測結果）
 第二次：
 - 練速度跟emmet!
+第四次：
+- <hr>改用CSS中的border
 
 ### Useful resources
 
 - [flex-wrap](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex-wrap)
 - [ionicons](https://ionic.io/ionicons/)
 - [The 3 CSS Methods for Adding Element Borders](https://moderncss.dev/the-3-css-methods-for-adding-element-borders/)
-- [如何改變hr標籤的顏色](https://www.796t.com/content/1541591464.html)
+- [Day16 CSS排版之神flex](https://ithelp.ithome.com.tw/m/articles/10275225)
+- [實際展示 EM 與 REM 的差異](https://www.hexschool.com/2016/01/02/2016-08-08-em-vs-rem/)
 
 ## Author
 
