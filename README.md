@@ -22,10 +22,13 @@ This is a solution to the [切版任務作業一 - AI 工具王 - 產品優勢�
 
 ### Screenshot
 - 第四次
+
 ![](./切版任務一/screenshot.ver.4.png)
 - 第二次
+
 ![](./切版任務一/screenshot.ver.2.png)
 - 第一次
+
 ![](./切版任務一/screenshot.png)
 
 
