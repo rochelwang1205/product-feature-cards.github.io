@@ -59,7 +59,7 @@ This is a solution to the [切版任務作業一 - AI 工具王 - 產品優勢�
 - CSS樣式再微調(像是邊框顏色、寬度)
 
 第四次：
-- 卡片用<ul><li>改寫，語意化標籤會優化網頁讀取、取得性(accessibility)
+- 卡片用ul li改寫，語意化標籤會優化網頁讀取、取得性(accessibility)
 - 標籤層級考慮到整頁的架構，卡片部分改成從h3開始
 - 改成'<a><span></span></a>' ，並改成使用Google Material Icon，方便後續修改大小、字體顏色等
 - 加入CSS reset
