@@ -60,7 +60,7 @@ body{
 .wrapper{
     width: 1296px;
 }
-.container{
+.wrapper ul{
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
@@ -70,6 +70,7 @@ body{
     margin:15px auto;
     width:416px;
     border-radius: 16px;
+    flex-direction: column;
 }
 .card img{
     width:100%;
