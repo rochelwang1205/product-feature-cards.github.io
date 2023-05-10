@@ -60,10 +60,15 @@ body{
 .wrapper{
     width: 1296px;
 }
-.wrapper ul{
+ul{
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
+    align-items: stretch;
+}
+li{
+    display: flex;
+    justify-content: space-between;
 }
 .card{
     outline:1px solid #f2f2f2;
